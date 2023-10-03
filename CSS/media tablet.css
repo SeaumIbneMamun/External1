@@ -1,0 +1,788 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+
+    body {
+        width: 67.45%;
+    }
+    
+
+
+    label {
+        display: block;
+        height: 20px;
+        width: 20px;
+        padding-left: 2px;
+    }
+
+    /* Headers */
+    .bars {
+        display: block;
+        height: 20px;
+        width: 43px;
+        padding: 16px;
+        margin-right: 18px;
+    }
+
+    input[type="checkbox"]:checked~nav ul {
+        /* display: none; */
+        left: 0;
+    }
+
+    
+
+
+    nav ul {
+        font-size: 1.2em;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        background-color: navy;
+        gap: 1em;
+        top: 94px;
+        width: 94.1%;
+        height: 324px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    header {
+        width: 148.25%;
+        height: 641px;
+    }
+
+    .logo img {
+        float: left;
+        margin-left: 90px;
+        height: 100%;
+    }
+
+
+    .flex {
+        width: 109.75%;
+        overflow: visible;
+    }
+
+    .banner h4 {
+        font-size: 21px;
+    }
+
+    .banner {
+        margin: 100px;
+        text-align: center;
+        height: 419px;
+    }
+
+    .banner h1 {
+        font-size: 44px;
+    }
+
+    .banner h4 {
+        font-size: 21px;
+        margin-top: 92px;
+    }
+
+    .mousey {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 391px;
+        margin-left: 11px;
+    }
+
+
+    .shape {
+        width: 120.55%;
+        margin-top: -54px;
+        margin-left: -60px;
+    }
+
+
+    .serv1 {
+        font-size: 17px;
+        width: 129.25%;
+        margin-left: 42px;
+    }
+
+    
+    
+    .service small {
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 50px;
+        padding: 0px 0px;
+    }
+    
+    .about {
+        width: 148.25%;
+    }
+
+    .about1 {
+        display: block;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .about2 p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .about3 p {
+        font-weight: 500;
+    font-size: 18px;
+    }
+
+    .about3 h4 {
+        font-weight: 800;
+    font-size: 24px;
+    }
+
+    .history {
+        width: 148.25%;
+    }
+
+    .hcard {
+        display: block;
+        margin-left: 0px;
+        width: 102%;
+    }
+
+    .hcardh {
+        margin: 28px 30px 0px 0px;
+    padding: 1px 3px 7px 18px;
+    }
+
+    .team {
+        width: 148.25%;
+        text-align: center;
+    }
+
+    .team-txt h1 {
+        margin-left: 18px;
+    }
+
+    .rowteam {
+        margin-left: 199px;
+        display: block;
+        text-align: center;
+    }
+
+    .contact {
+        width: 148.25%;
+    }
+
+    .location {
+        display: block;
+        margin: -54px 0px 0px -55px;
+    }
+
+    .map {
+
+    }
+
+    .office {
+        margin: 23px 0px 0px 108px;
+        padding: 1px 68px;
+        text-align: center;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .ahead {
+        margin-bottom: 60px;
+        margin-left: 73px;
+    }
+
+    .article1 {
+        display: block;
+    }
+
+    .articlei2 {
+        margin: -18px 17px 0px 0px;
+        padding: 0px 0px 24px 29px;
+        text-align: center;
+    }
+
+    .articlei3 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .path1 {
+        margin-left: 0px;
+        margin-top: -79px;
+        width: 148.25%;
+    }
+
+    .footer {
+        display: block;
+        text-align: center;
+        margin-left: 198px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+
+
+
+
+    
+
+    body {
+        width: 67.45%;
+    }
+    
+
+
+    label {
+        display: block;
+        height: 20px;
+        width: 20px;
+        padding-left: 2px;
+    }
+
+    /* Headers */
+    .bars {
+        display: block;
+        height: 20px;
+        width: 43px;
+        padding: 16px;
+        margin-right: 18px;
+    }
+
+    input[type="checkbox"]:checked~nav ul {
+        /* display: none; */
+        left: 0;
+    }
+
+    
+
+
+    nav ul {
+        font-size: 1.2em;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        background-color: navy;
+        gap: 1em;
+        top: 94px;
+        width: 94.1%;
+        height: 324px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    header {
+        width: 148.25%;
+        height: 654px;
+    }
+
+    .logo img {
+        float: left;
+        margin-left: 90px;
+        height: 100%;
+    }
+
+
+    .flex {
+        width: 105.75%;
+        overflow: visible;
+    }
+
+    .banner h4 {
+        font-size: 21px;
+    }
+
+    .banner {
+        margin: 100px;
+        text-align: center;
+        height: 419px;
+    }
+
+    .banner h1 {
+        font-size: 44px;
+    }
+
+    .banner h4 {
+        font-size: 21px;
+        margin-top: 92px;
+    }
+
+    .mousey {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 391px;
+        margin-left: 11px;
+    }
+
+
+    .shape {
+        width: 120.55%;
+        margin-top: -54px;
+        margin-left: -60px;
+    }
+
+
+    .serv1 {
+        font-size: 17px;
+        width: 129.25%;
+        margin-left: 42px;
+    }
+
+    
+    
+    .service small {
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 50px;
+        padding: 0px 0px;
+    }
+    
+    .about {
+        width: 148.25%;
+    }
+
+    .about1 {
+        display: block;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .about2 p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .about3 p {
+        font-weight: 500;
+    font-size: 18px;
+    }
+
+    .about3 h4 {
+        font-weight: 800;
+    font-size: 24px;
+    }
+
+    .history {
+        width: 148.25%;
+    }
+
+    .hcard {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        width: 102%;
+    }
+
+    .hcardh {
+        margin: 28px 30px 0px 0px;
+    padding: 1px 3px 7px 18px;
+    }
+
+    .team {
+        width: 148.25%;
+        text-align: center;
+    }
+
+    .team-txt h1 {
+        margin-left: 18px;
+    }
+
+    .rowteam {
+        margin-left: 92px;
+        display: grid;
+        text-align: left;
+    }
+
+    .contact {
+        width: 148.25%;
+    }
+
+    .location {
+        display: block;
+        margin: -54px 0px 0px -55px;
+    }
+
+    .map {
+        margin-left: 84px;
+    }
+
+    .office {
+        margin: 27px 0px 0px 188px;
+        padding: 1px 68px;
+        text-align: center;
+    }
+
+    .article {
+        width: 110.55%;
+    }
+
+    .ahead {
+        margin-bottom: 60px;
+        margin-left: 73px;
+    }
+
+    .article1 {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .articlei2 {
+        margin: -18px 17px 0px 0px;
+        padding: 0px 0px 24px 29px;
+        text-align: center;
+    }
+
+    .articlei3 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .path1 {
+        margin-left: 0px;
+        margin-top: -90px;
+        width: 148.25%;
+    }
+
+    .footer {
+        display: block;
+        margin-left: 300px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 769px) and (max-width:992px) {
+
+
+
+
+
+
+    body {
+        width: 67.45%;
+    }
+    
+
+
+    label {
+        display: block;
+        height: 20px;
+        width: 20px;
+        padding-left: 2px;
+    }
+
+    /* Headers */
+    .bars {
+        display: block;
+        height: 20px;
+        width: 43px;
+        padding: 16px;
+        margin-right: 18px;
+    }
+
+    input[type="checkbox"]:checked~nav ul {
+        /* display: none; */
+        left: 0;
+    }
+
+    
+
+
+    nav ul {
+        font-size: 1.2em;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        background-color: navy;
+        gap: 1em;
+        top: 94px;
+        width: 94.1%;
+        height: 324px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    header {
+        width: 148.25%;
+        height: 679px;
+    }
+
+    .logo img {
+        float: left;
+        margin-left: 90px;
+        height: 100%;
+    }
+
+
+    .flex {
+        width: 102.75%;
+        overflow: visible;
+    }
+
+    .banner h4 {
+        font-size: 21px;
+    }
+
+    .banner {
+        margin: 100px;
+        text-align: center;
+        height: 419px;
+    }
+
+    .banner h1 {
+        font-size: 44px;
+    }
+
+    .banner h4 {
+        font-size: 21px;
+        margin-top: 92px;
+    }
+
+    .mousey {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 391px;
+        margin-left: 11px;
+    }
+
+
+    .shape {
+        width: 118.55%;
+        margin-top: -54px;
+        margin-left: -74px;
+    }
+
+
+    .serv1 {
+        font-size: 17px;
+        width: 129.25%;
+        margin-left: 42px;
+    }
+
+    
+    
+    .service small {
+        text-align: center;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 50px;
+        padding: 0px 0px;
+        margin-left: 43px;
+    }
+    
+    .about {
+        width: 148.25%;
+    }
+
+    .about1 {
+        margin: 0px;
+    }
+
+    .about2 p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .about3 p {
+        font-weight: 500;
+    font-size: 18px;
+    }
+
+    .about3 h4 {
+        font-weight: 800;
+    font-size: 24px;
+    }
+
+    .history {
+        width: 148.25%;
+    }
+
+    .hcard {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        width: 102%;
+    }
+
+    .hcardh {
+        margin: 28px 30px 0px 0px;
+    padding: 1px 3px 7px 18px;
+    }
+
+    .team {
+        width: 148.25%;
+        text-align: center;
+    }
+
+    .team-txt h1 {
+        margin-left: 18px;
+    }
+
+    .rowteam {
+        display: grid;
+    text-align: center;
+    margin-left: 205px;
+    }
+
+    .contact {
+        width: 148.25%;
+    }
+
+    .fname {
+        width: 80px;
+    }
+
+    .fmail{
+
+    }
+
+    .location {
+        display: flex;
+        margin: -54px 0px 0px -55px;
+    }
+
+    .map {
+        margin-left: 50px;
+    }
+
+    .office {
+        margin: 24px 0px 0px 41px;
+        padding: 0px 147px 240px 47px;
+        text-align: left;
+        width: 0px;
+        height: 353px;
+    }
+
+    .article {
+        width: 119.15%;
+    }
+
+    .ahead {
+        margin-bottom: 60px;
+        margin-left: 73px;
+    }
+
+    .article1 {
+        /* display: block;
+        margin-left: 80px; */
+    }
+
+    .articlei2 {
+        margin: -18px 17px 0px 0px;
+        padding: 0px 0px 24px 29px;
+        text-align: center;
+    }
+
+    .articlei3 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .path1 {
+        margin-left: 0px;
+        margin-top: -118px;
+        width: 148.25%;
+    }
+
+    /* .footer {
+        display: block;
+        margin-left: 300px;
+    } */
+
+
+
+
+
+
+}
+
+
+
+/* Extra Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 993px) and (max-width:1278px) {
+
+
+
+    body {
+        width: 100.1%;
+    }
+
+    .flex {
+        width: 101.75%;
+    }
+
+    .shape {
+        width: 118%;
+        margin-left: -79px;
+        margin-top: -47px;
+    }
+
+    .office {
+        width: 100%;
+        margin: 28px 271px 0px 43px;
+    padding: 17px 141px 202px 37px
+    }
+
+
+    .article {
+        width: 81.65%;
+    }
+
+    .path1 {
+        margin: -139px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        text-align: center;
+        font-size: small;
+        margin-left: 200px;
+    }
+
+    .article1 {
+        margin: 0px -71px 0px 0px;
+    }
+
+    .mousey {
+        margin-top: 364px;
+    }
+
+}
