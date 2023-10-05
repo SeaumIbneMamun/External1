@@ -43,7 +43,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
-  margin: -133px -99px;
+  margin: -133px -101px;
   position: fixed;
   /* background-color: grey; */
   overflow: hidden;
@@ -56,9 +56,9 @@ header {
 }
 
 .shape {
-  margin-top: -71px;
-  width: 1303px;
-  margin-left: -98px;
+  margin-top: -92px;
+  width: 118%;
+  margin-left: -103px;
 }
 
 
@@ -546,12 +546,12 @@ form {
     border: black 2px transparent;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin: 30px 284px 0px 0px;
+    margin: 30px 170px 0px 0px;
     padding: 0px 18px 0px 25px;
     background-color: white;
     width: 257px;
     height: 350px;
-  }
+}
 
   /* article section */
   .article {
@@ -602,13 +602,17 @@ form {
     margin-bottom: 60px;
   }
   .article {
-  padding-bottom: 250px;
-  }
+    padding-bottom: 250px;
+    width: 85.55%;
+}
+
   /* footer */
 
   .path1 {
     margin: -148px 0px 0px 0px;
-  }
+    width: 100%;
+    fill: white;
+}
 
   .footer {
     display: flex;

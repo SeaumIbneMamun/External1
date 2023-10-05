@@ -1,6 +1,9 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* a small devices (phones, 600px and down) */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
     
+    .container {
+        width: 90%;
+    }
 
     body {
         width: 67.45%;
@@ -21,7 +24,7 @@
         height: 20px;
         width: 43px;
         padding: 16px;
-        margin-right: 18px;
+        margin-right: 35px;
     }
 
     input[type="checkbox"]:checked~nav ul {
@@ -47,7 +50,7 @@
     }
 
     header {
-        width: 148.25%;
+        width: 157.95%;
         height: 641px;
     }
 
@@ -59,7 +62,7 @@
 
 
     .flex {
-        width: 109.75%;
+        width: 114.75%;
         overflow: visible;
     }
 
@@ -118,7 +121,7 @@
     }
     
     .about {
-        width: 148.25%;
+        width: 157.65%;
     }
 
     .about1 {
@@ -143,7 +146,7 @@
     }
 
     .history {
-        width: 148.25%;
+        width: 156.25%;
     }
 
     .hcard {
@@ -158,7 +161,7 @@
     }
 
     .team {
-        width: 148.25%;
+        width: 157.85%;
         text-align: center;
     }
 
@@ -167,13 +170,21 @@
     }
 
     .rowteam {
-        margin-left: 199px;
+        margin-left: 117px;
         display: block;
         text-align: center;
     }
 
     .contact {
-        width: 148.25%;
+        width: 157.75%;
+    }
+
+    .formg {
+        display: block;
+    }
+
+    .fname {
+        width: 38%;
     }
 
     .location {
@@ -182,11 +193,11 @@
     }
 
     .map {
-
+        margin-left: -6%;
     }
 
     .office {
-        margin: 23px 0px 0px 108px;
+        margin: 23px 0px 0px 59px;
         padding: 1px 68px;
         text-align: center;
     }
@@ -219,8 +230,8 @@
 
     .path1 {
         margin-left: 0px;
-        margin-top: -79px;
-        width: 148.25%;
+        margin-top: -70px;
+        width: 157.25%;
     }
 
     .footer {
@@ -237,12 +248,15 @@
 
 
 
+    .container {
+        width: 75%;
+    }
 
 
     
 
     body {
-        width: 67.45%;
+        width: 100%;
     }
     
 
@@ -259,8 +273,8 @@
         display: block;
         height: 20px;
         width: 43px;
-        padding: 16px;
-        margin-right: 18px;
+        padding: 10px;
+        margin-right: 47px;
     }
 
     input[type="checkbox"]:checked~nav ul {
@@ -278,15 +292,15 @@
         align-items: center;
         background-color: navy;
         gap: 1em;
-        top: 94px;
-        width: 94.1%;
+        top: 92px;
+        width: 92%;
         height: 324px;
         left: -100%;
         transition: 0.5s;
     }
 
     header {
-        width: 148.25%;
+        width: %;
         height: 654px;
     }
 
@@ -298,7 +312,8 @@
 
 
     .flex {
-        width: 105.75%;
+        width: 100%;
+        padding: 20px;
         overflow: visible;
     }
 
@@ -331,15 +346,19 @@
 
 
     .shape {
-        width: 120.55%;
-        margin-top: -54px;
-        margin-left: -60px;
+        
+        margin-top: -51px;
+        margin-left: -107px;
+    }
+
+    .shape svg {
+        width: 60%;
     }
 
 
     .serv1 {
         font-size: 17px;
-        width: 129.25%;
+        width: %;
         margin-left: 42px;
     }
 
@@ -357,7 +376,7 @@
     }
     
     .about {
-        width: 148.25%;
+        width: %;
     }
 
     .about1 {
@@ -382,14 +401,14 @@
     }
 
     .history {
-        width: 148.25%;
+        width: 100%;
     }
 
     .hcard {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-left: 0px;
-        width: 102%;
+        width: %;
     }
 
     .hcardh {
@@ -398,7 +417,7 @@
     }
 
     .team {
-        width: 148.25%;
+        width: %;
         text-align: center;
     }
 
@@ -408,17 +427,28 @@
 
     .rowteam {
         margin-left: 92px;
-        display: grid;
+        display: block;
         text-align: left;
     }
 
     .contact {
-        width: 148.25%;
+        width: 100%;
+    }
+
+    .form-item {
+        margin: 19px 0px 36px 0px;
+        padding: 13px 88px 7px 13px;
+        border-bottom: 2px solid white;
+        overflow: hidden;
+    }
+
+    .fname {
+        width: 37%;
     }
 
     .location {
         display: block;
-        margin: -54px 0px 0px -55px;
+        margin: -54px 0px 0px -128px;
     }
 
     .map {
@@ -426,13 +456,14 @@
     }
 
     .office {
-        margin: 27px 0px 0px 188px;
+        margin: 27px 0px 0px 162px;
         padding: 1px 68px;
         text-align: center;
     }
 
     .article {
-        width: 110.55%;
+        width: 67%;
+        
     }
 
     .ahead {
@@ -460,13 +491,19 @@
 
     .path1 {
         margin-left: 0px;
-        margin-top: -90px;
-        width: 148.25%;
+        margin-top: -85px;
+        width: %;
+    }
+
+    .path1 svg {
+        width: 133.25%;
+        margin-left: 0%;
+        fill: white;
     }
 
     .footer {
         display: block;
-        margin-left: 300px;
+        margin-left: 0px;
     }
 
 
@@ -490,9 +527,13 @@
 
 
     body {
-        width: 67.45%;
+        width: 65%;
     }
     
+
+    .container {
+        width: 90%;
+    }
 
 
     label {
@@ -527,15 +568,15 @@
         background-color: navy;
         gap: 1em;
         top: 94px;
-        width: 94.1%;
+        width: 95.1%;
         height: 324px;
         left: -100%;
         transition: 0.5s;
     }
 
     header {
-        width: 148.25%;
-        height: 679px;
+        width: 181.65%;
+        height: 720px;
     }
 
     .logo img {
@@ -546,7 +587,8 @@
 
 
     .flex {
-        width: 102.75%;
+        width: 103%;
+        padding: 20px;
         overflow: visible;
     }
 
@@ -561,7 +603,7 @@
     }
 
     .banner h1 {
-        font-size: 44px;
+        font-size: 55px;
     }
 
     .banner h4 {
@@ -574,20 +616,20 @@
         left: 0;
         right: 0;
         margin-top: 391px;
-        margin-left: 11px;
+        margin-left: 525%;
     }
 
 
     .shape {
-        width: 118.55%;
-        margin-top: -54px;
-        margin-left: -74px;
+        width: 123.55%;
+        margin-top: -34px;
+        margin-left: -143px;
     }
 
 
     .serv1 {
         font-size: 17px;
-        width: 129.25%;
+        width: 170.95%;
         margin-left: 42px;
     }
 
@@ -606,7 +648,7 @@
     }
     
     .about {
-        width: 148.25%;
+        width: 181.85%;
     }
 
     .about1 {
@@ -629,7 +671,7 @@
     }
 
     .history {
-        width: 148.25%;
+        width: 181.25%;
     }
 
     .hcard {
@@ -645,7 +687,7 @@
     }
 
     .team {
-        width: 148.25%;
+        width: 181.85%;
         text-align: center;
     }
 
@@ -660,11 +702,11 @@
     }
 
     .contact {
-        width: 148.25%;
+        width: 181.85%;
     }
 
     .fname {
-        width: 80px;
+        width: 21%;
     }
 
     .fmail{
@@ -674,6 +716,7 @@
     .location {
         display: flex;
         margin: -54px 0px 0px -55px;
+        margin-left: -10%;
     }
 
     .map {
@@ -689,7 +732,8 @@
     }
 
     .article {
-        width: 119.15%;
+        width: 142.85%;
+        padding-left: 14%;
     }
 
     .ahead {
@@ -717,14 +761,14 @@
 
     .path1 {
         margin-left: 0px;
-        margin-top: -118px;
-        width: 148.25%;
+        margin-top: -128px;
+        width: 181.25%;
     }
 
-    /* .footer {
-        display: block;
-        margin-left: 300px;
-    } */
+    .footer {
+        display: flex;
+        margin-left: 413px;
+    }
 
 
 
@@ -786,3 +830,11 @@
     }
 
 }
+
+
+
+
+/* Extra small devices (phones, 400px and down)
+@media only screen and (max-width: 400px) {
+
+} */
